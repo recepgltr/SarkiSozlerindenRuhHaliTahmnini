@@ -8,7 +8,7 @@ genius.skip_non_songs = True
 genius.excluded_terms = ["(Remix)", "(Live)"]
 
 # Excel'den oku
-df = pd.read_csv("C:/Users/recep/Downloads/uzgun_600_sarki_temiz1.csv", encoding="utf-8-sig")
+df = pd.read_csv("ofke.csv", encoding="utf-8-sig")
 
 # Şarkı sözlerini çek
 lyrics_list = []
